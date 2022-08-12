@@ -1,0 +1,21 @@
+table{
+    border: 1px solid black;
+}
+
+th{
+    border: 1px solid gray;
+    text-align: left;
+    width: 200px;
+}
+
+tr :nth-child(3) {
+    border: 1px solid gray;
+    text-align: left;
+    width: 100px;
+}
+
+tr :nth-child(4) {
+    border: 1px solid gray;
+    text-align: left;
+    width: 100px;
+}
