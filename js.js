@@ -60,8 +60,8 @@ for (var i = 0; i < myLibrary.length; i++){
     html+= "<td>" + myLibrary[i].author + "</td>";
     html+= "<td>" + myLibrary[i].pages + "</td>";
     html+= "<td>" + myLibrary[i].read + "</td>";
-    html+= "<td><button onclick= myLibrary["+i+"].toggleRead()> On/Off </button></td>";
-    html+= "<td><button data-button="+i+" onclick=remove("+i+")> Remove </button></td>";
+    html+= "<td><button class=toggle onclick= myLibrary["+i+"].toggleRead()> On/Off </button></td>";
+    html+= "<td><button class=remove data-button="+i+" onclick=remove("+i+")> Remove </button></td>";
 
     html+= "</tr>";
 }
@@ -114,8 +114,5 @@ function addBookToLibrary(){
 
     }
 
-    function toggleRead(){
-
-    }
 
 

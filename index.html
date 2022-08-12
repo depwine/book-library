@@ -9,26 +9,36 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-        <p>New Book</p>
-        <label for="bTitle">Book Title </label>
-        <input type="text" id="bTitle" name="bTitle"><br>
-        <br>
-        <label for="author">Author </label>
-        <input type="text" id="author" name="author"><br>
-        <br>
-        <label for="pages">Number of Pages </label>
-        <input type="text" id="pages" name="pages"><br>
-        <br>
+    <div class = container>
+    <div class = leftContainer>
+        <div class="newBookDiv">
+        <p class="newBook">New Book</p>
+        </div>
+        <div class="titleDiv">
+            <label for="bTitle">Book Title </label>
+            <input type="text" id="bTitle" name="bTitle">
+        </div>
+        <div class="authorDiv">
+            <label for="author">Author </label>
+            <input type="text" id="author" name="author">
+        </div>
+        <div class=pagesDiv>
+            <label for="pages"># of Pages </label>
+            <input type="text" id="pages" name="pages">
+        </div>
+        <div class="readDiv">
         <label for="read">Have you read this book? </label>
-        <input type="checkbox" id="read" name="read"><br>
-
-
-        <br>
+        <input type="checkbox" id="read" name="read">
+        </div>
         <button class="formSubmit" onclick="addBookToLibrary()">Submit</button>
-    <br>
-    <br>
 
+    </div>
+
+
+
+    <div class="rightCont">
     <div id="table"></div>
-
+    </div>
+</div>
 </body>
 </html>
