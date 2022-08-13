@@ -107,7 +107,7 @@ th{
     width: 200px;
 }
 
-input{
+input[type="text"]{
     display: grid;
     background-color: slategray;
     border: 1px solid white;
@@ -118,6 +118,10 @@ input{
     margin: 5px 0 5px 0;
     justify-self: left;
     width: auto;
+}
+
+input[type="checkbox"]{
+
 }
 
 tr:nth-child(3), tr:nth-child(4) {
